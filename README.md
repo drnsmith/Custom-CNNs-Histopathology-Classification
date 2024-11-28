@@ -45,7 +45,7 @@ Histopathology is critical in diagnosing diseases, but manual image analysis is 
   - Insights into false positives, false negatives, and model limitations.
 
 - **Reproducibility and Efficiency**:
-  - Save and reload preprocessed datasets using **Pickle**.
+  - Save and reload pre-processed datasets using **Pickle**.
   - Fix random seeds to ensure consistent results.
 
 - **Deployment-Ready Model**:
@@ -106,7 +106,7 @@ python app.py
 ```
 
 #### Technologies Used
- - `Python`: Programming language for data preprocessing, training, and evaluation.
+ - `Python`: Programming language for data pre-processing, training, and evaluation.
  - `TensorFlow/Keras`: For building, training, and optimising custom CNNs.
  - `Scikit-learn`: For calculating class weights and generating evaluation metrics.
  - `Flask`: For deploying the model as an API.

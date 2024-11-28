@@ -87,7 +87,7 @@ pip install -r requirements.txt
 
 #### Usage
  - 1. Train the Model
-Run the training script to preprocess the dataset, train the custom CNN, and save outputs:
+Run the training script to pre-process the dataset, train the custom CNN, and save outputs:
 
 ```bash
 python train.py
@@ -104,19 +104,7 @@ Start the Flask API to serve predictions:
 ```bash
 python app.py
 ```
-Upload a histopathology image via the API to classify it as benign or malignant.
-```plaintext
-custom-cnn-histopathology/
-├── data/                   # Raw and preprocessed BreakHis data
-├── models/                 # Saved models (.h5 files)
-├── notebooks/              # Jupyter notebooks for experimentation
-├── scripts/                # Python scripts for training, evaluation, and deployment
-├── results/                # Confusion matrices and evaluation outputs
-├── requirements.txt        # Python dependencies
-├── README.md               # Project documentation
-└── app.py                  # Flask application for model deployment
 
-```
 #### Technologies Used
  - `Python`: Programming language for data preprocessing, training, and evaluation.
  - `TensorFlow/Keras`: For building, training, and optimising custom CNNs.

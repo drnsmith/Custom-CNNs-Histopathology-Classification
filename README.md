@@ -1,11 +1,11 @@
-# **Custom Convolutional Neural Networks for Histopathology Classification Using the BreakHis Dataset**
+### Custom Convolutional Neural Networks for Histopathology Tumour Classification
 
-## **Project Overview**
+#### **Overview**
 This project focuses on developing, training, and optimizing custom **Convolutional Neural Networks (CNNs)** for the classification of histopathological images into benign and malignant categories. The study incorporates **stacking ensemble methods** to combine predictions from multiple CNN architectures for enhanced classification accuracy. The publicly available **BreakHis dataset** serves as the basis for evaluation.
 
 ---
 
-## **Motivation**
+#### **Motivation**
 Histopathological analysis is critical for diagnosing diseases such as cancer. This project aims to:
 1. Build lightweight CNN architectures tailored for histopathology images.
 2. Address challenges like class imbalance and overfitting.
@@ -13,7 +13,7 @@ Histopathological analysis is critical for diagnosing diseases such as cancer. T
 
 ---
 
-## **Key Features**
+#### **Key Features**
 - **Custom CNN Architectures**:
   - Lightweight, custom-designed CNNs optimized for medical imaging.
   - Dropout regularization and learning rate scheduling to reduce overfitting and ensure efficient training.

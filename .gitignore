@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Datasets and large files
+data/*.npy
+data/*.csv
+data/*.pkl
+data/*.h5
+
+# Model files
+models/*.h5
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python cache
+*.egg-info/
+.eggs/
+*.bak
+
+# Output files
+results/
+
